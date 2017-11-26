@@ -385,7 +385,7 @@ header
 	.tarif
 		padding-bottom: 20px
 		background-color: rgba(grey, .2)
-		transition: all .3s
+		transition: transform .3s
 		.header-tarif
 			height: 250px
 			padding: 20px
@@ -394,7 +394,20 @@ header
 			//font-size: 18px
 			border-bottom: 20px solid $lite-accent
 			.name-tarif
-				background-image: url("../img/")
+				//background-image: url("../img/smob.png")
+				//background-size: 50px 90px
+				//background-repeat: no-repeat
+				//width: 45px
+				//height: 90px
+				//background-position: 0 0
+				img
+					width: 45px
+					height: 90px
+					position: absolute
+					left: 10px
+					top: 0
+				.svg image
+					stroke: #fff
 				p
 					font-size: 18px
 				h3
@@ -462,6 +475,11 @@ header
 		ol
 			list-style-type: decimal
 			margin-left: 15px
+	.banner
+		background-image: url("../img/baner.png")
+		background-position: -800px -330px
+		width: 565px
+		height: 385px
 	.text-kartinka
 		span
 			font-size: 18px
@@ -482,5 +500,12 @@ header
 		top: 40%
 	.r-strelka2
 		left: 55%
+.projekt
+	background-image: url("../img/vz.png")
+	background-size: contain
+	background-repeat: no-repeat
+	background-position: 300px 0
+	width: 100%	
+	height: 702px
 
 @import "media" // Всегда в конце

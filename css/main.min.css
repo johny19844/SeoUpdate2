@@ -8289,13 +8289,34 @@ header {
     left: 55%; }
 
 .projekt {
-  background-image: url("../img/vz.png");
+  background-image: url("../img/vz2.png");
   -webkit-background-size: contain;
           background-size: contain;
   background-repeat: no-repeat;
   background-position: 300px 0;
   width: 100%;
-  height: 702px; }
+  height: 702px;
+  position: relative; }
+  .projekt p {
+    position: absolute;
+    top: 320px; }
+    .projekt p span {
+      font-weight: bold; }
+
+h2.h2 {
+  text-align: left;
+  color: #1d688d !important;
+  font-weight: bold;
+  padding: 0;
+  margin: 0; }
+
+.text-3-polosi .content {
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px; }
+  .text-3-polosi .content h3 {
+    text-transform: uppercase;
+    color: #26cbe0; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
